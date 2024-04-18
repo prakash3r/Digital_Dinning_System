@@ -39,7 +39,7 @@ const Cart = ({ cartItems, removeFromCart, finalizeOrder }) => {
           <div className="cart-total">Total Amount: ${calculateTotalAmount()}</div>
           <div className="cart-actions">
             <button onClick={() => finalizeOrder(calculateTotalAmount())}>Finalize Order</button>
-            <button onClick={handlePayment}>Make Payment</button>
+            <button onClick={handlePayment}>Payment</button>
           </div>
           {showPaymentImage && <img src={paymentImage} alt="Payment" className="payment-image" />}
         </>
