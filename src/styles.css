@@ -1,0 +1,228 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 18px;
+    color: #555;
+}
+
+section#menu {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+/* styles.css */
+
+#menu {
+    text-align: center;
+  }
+  
+  .dishes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Start items at the beginning */
+    
+  }
+  
+  .dish {
+    margin: 20px;
+    text-align: center;
+    flex: 0 0 calc(33.33% -40px); 
+  }
+  
+  .dish img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .dish :hover {
+    transform: scale(1.05);
+  }
+  
+  .dish h3 {
+    margin-top: 0;
+  }
+  
+  .dish p {
+    margin-bottom: 10px;
+  }
+  
+  .dish button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dish button:hover {
+    background-color: #ffc107;
+  }
+  
+
+  .bottom-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .bottom-button button {
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bottom-button button:hover {
+    background-color: #ffc107;
+  }
+
+  .menu-container {
+    
+    height: calc(100vh - 100px); /* Adjust height based on your header and footer heights */
+    overflow-y: auto;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffc107; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px;
+    text-align: center;
+    z-index: 100; /* Ensure the footer stays above other elements */
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #ffc107;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #ffca28;
+  }
+  
+  
+  
+
+/* styles.css */
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0 auto; /* Center the h1 */
+  }
+  
+  /* About */
+  #about {
+    text-align: center; /* Center-align the content */
+  }
+  
+  .slider-container {
+    position: relative;
+    max-width: 500px; /* Adjust the maximum width of the slider */
+    margin: 0 auto; /* Center the slider */
+  }
+  
+  .slider-container img {
+    width: 100%; /* Make the image responsive */
+    max-height: 300px; /* Adjust the maximum height of the image */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  
+  .slider-container button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .slider-container button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+  }
+  
+  .slider-container button:first-of-type {
+    left: 0; /* Position the "Previous" button on the left */
+  }
+  
+  .slider-container button:last-of-type {
+    right: 0; /* Position the "Next" button on the right */
+  }
+  
+  /* Menu */
+
+/* Button styles */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /* Style for Finalize Order button */
+  .finalize-order-button {
+    background-color: #008CBA; /* Blue */
+  }
+  
+  /* Style for Payment button */
+  .payment-button {
+    background-color: #f44336; /* Red */
+  }
+  

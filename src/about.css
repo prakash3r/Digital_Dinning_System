@@ -1,0 +1,29 @@
+.about-section {
+    text-align: center;
+  }
+  
+  .image-container {
+    margin-top: 50px; /* Adjust as needed */
+  }
+  
+  .about-image {
+    width: 400px; /* Adjust width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  
+  .text-content {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .about-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

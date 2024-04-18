@@ -1,0 +1,17 @@
+.menu-container {
+    height: calc(100vh - 200px); /* Adjust height based on your header and footer heights */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffc107; /* Dark background color */
+    color: white; /* Text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
